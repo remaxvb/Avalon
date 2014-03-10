@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_color" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="109dp" >
+
+        <ImageView
+            android:id="@+id/welcome_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_welcome_logo" />
+
+        <Button
+            android:id="@+id/btn_sign_in_welcome"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_below="@id/welcome_logo"
+            android:background="@drawable/darkgreenbutton"
+            style="@style/welcomeText"
+            android:text="@string/welcome_sign_in" />
+
+        <Button
+            android:id="@+id/btn_sign_up_welcome"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/btn_sign_in_welcome"
+            android:layout_marginTop="8dp" 
+            android:layout_marginLeft="16dp"   
+            android:layout_marginRight="16dp"
+            android:background="@drawable/darkgreenbutton"
+            style="@style/welcomeText"
+            android:text="@string/welcome_sign_up" />
+         >
+    </RelativeLayout>
+
+</LinearLayout>

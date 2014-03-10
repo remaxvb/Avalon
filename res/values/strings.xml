@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tour Manager</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sign__in">SIGN IN</string>
+    <string name="title_activity_sign__up">SIGN UP</string>
+    <string name="title_activity_welcome">WELCOME</string>
+    <string name="title_activity_chat__box">CHATBOX</string>
+    <string name="title_username">User Name: </string>
+    <string name="title_password">Password: </string>
+    <string name="title_repassword">Re-type: </string>
+    <string name="title_fullname">Full Name: </string>
+    <string name="title_emailaddress">Email: </string>
+    <string name="title_signup">Don\'t have any account? Sign up now!</string>
+    <string name="title_signupbtn">Sign Up</string>
+    <string name="title_signin">Sign In</string>
+    <string name="title_signout">Sign Out</string>
+    <string name="title_send">Send</string>
+    <string name="title_back">Back</string>
+    <string name="title_hello">Hello</string>
+    <string name="welcome_sign_in">Sign In</string>
+    <string name="welcome_sign_up">Sign Up</string>
+
+</resources>

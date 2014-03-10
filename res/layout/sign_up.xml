@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".SignUp" >
+
+    <TextView
+        android:id="@+id/labelSUUserName"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/title_username" />
+
+    <EditText
+        android:id="@+id/textSUUserName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/labelSUUserName"
+        android:layout_marginBottom="15dp"
+        android:layout_toRightOf="@id/labelSUUserName"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/labelSUPassword"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/labelSUUserName"
+        android:layout_marginBottom="20dp"
+        android:text="@string/title_password" />
+
+    <EditText
+        android:id="@+id/textSUPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/labelSUPassword"
+        android:layout_marginBottom="20dp"
+        android:layout_toRightOf="@id/labelSUPassword"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/labelSURePassword"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/labelSUPassword"
+        android:layout_marginBottom="20dp"
+        android:text="@string/title_repassword" />
+
+    <EditText
+        android:id="@+id/textSURePassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/labelSURePassword"
+        android:layout_marginBottom="20dp"
+        android:layout_toRightOf="@id/labelSURePassword"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/labelSUFullName"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/labelSURePassword"
+        android:layout_marginBottom="20dp"
+        android:text="@string/title_fullname" />
+
+    <EditText
+        android:id="@+id/textSUFullName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/labelSUFullName"
+        android:layout_marginBottom="20dp"
+        android:layout_toRightOf="@id/labelSUFullName"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/labelSUEmail"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/labelSUFullName"
+        android:layout_marginBottom="20dp"
+        android:text="@string/title_emailaddress" />
+
+    <EditText
+        android:id="@+id/textSUEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/labelSUEmail"
+        android:layout_marginBottom="20dp"
+        android:layout_toRightOf="@id/labelSUEmail"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/buttonSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/labelSUEmail"
+        android:text="@string/title_signupbtn" />
+
+    <Button
+        android:id="@+id/buttonBackToSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/buttonSignUp"
+        android:layout_below="@id/labelSUEmail"
+        android:layout_toLeftOf="@id/buttonSignUp"
+        android:text="@string/title_back" />
+
+</RelativeLayout>
